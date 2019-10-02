@@ -15,7 +15,7 @@ namespace EjercicioLargo2
             bool uError = false;
             do
             {
-                Console.WriteLine("Introduce tu operación (opciones: +, /, -, *, e, r) e es para elevar y r para raiz");
+                Console.WriteLine("Introduce tu operación (opciones: +, /, -, *, ^, r) e es para elevar y r para raiz");
                 string operation = Console.ReadLine();
                 operation = operation.ToLower();
                 selected = operation;
